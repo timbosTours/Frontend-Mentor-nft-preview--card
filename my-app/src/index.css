@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --very-dark-blue-body-bg: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan-price: hsl(178, 100%, 50%)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--very-dark-blue-body-bg);
+    /* center the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card-container{
+    background-color: var(--dark-blue-card-bg);
+    font-family: 'Outfit', sans-serif;
+    border-radius: 15px;
+    max-width: 21rem;
+    min-height: 33rem;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.nft-image{
+    margin-top: 1em;
+    max-height: 18em;
+    border-radius: 10px;
+}
+
+.nft-title{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    margin: 0.5em;
+    margin-left: 1em;
+}
+
+.nft-description{
+    font-size: 18px;
+    color: var(--soft-blue);
+    font-weight: 300;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.auction-details{
+    display: flex;
+    width: 21em;
+    border-bottom: 2px solid var(--dark-blue-line);
+    max-width: 19em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.eth-icon{
+    margin: 0.25em;
+}
+
+.nft-price{
+    display: flex;
+    margin: 1em;
+    margin-left: 0em;
+    color: var(--cyan-price);
+    font-size: 14px;
+    
+}
+
+.price-in-eth{
+    font-weight: 400;
+}
+
+.time-left{
+    display: flex;
+    color: var(--soft-blue);
+    position: relative;
+    left: 4.5em;
+    top: 1em;
+}
+
+.clock-image{
+    margin: 0.25em;
+    max-width: 1em;
+    max-height: 1em;
+}
+
+.nft-auction-time-left{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 0.15em;
+}
+
+.creator-details{
+    color: var(--soft-blue);
+    display: flex;
+    margin: 0.5em;
+    margin-left: 1em;
+}
+
+.creator-avatar{
+    border: 1px solid white;
+    border-radius: 25px;
+    max-width: 2em;
+    max-height: 2em;
+    margin-right: .5em;
+}
+
+.creation-of{
+    margin-left: 0.5em;
+    font-weight: 300;
+    padding-top: 0.25em;
+}
+.creator-name{
+    color: white;
+    padding-left: 0.2em;
+    padding-top: 0.25em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
