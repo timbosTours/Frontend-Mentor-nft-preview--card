@@ -40,6 +40,23 @@ body{
     border-radius: 10px;
 }
 
+.hover-image{
+    /* display: none; */
+    display: flex;
+    cursor: pointer;
+    padding: 7.5em;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 247, 0.5);
+    position: absolute;
+    top: 11.7em;
+    left: 16.5em;
+    z-index: 1000;
+}
+
+/* .hover-image:hover{
+    
+} */
+
 .nft-title{
     font-size: 24px;
     color: white;
@@ -47,6 +64,11 @@ body{
     text-align: left;
     margin: 0.5em;
     margin-left: 1em;
+}
+
+.nft-title:hover{
+    cursor: pointer;
+    color: var(--cyan-price);
 }
 
 .nft-description{
@@ -127,6 +149,11 @@ body{
     color: white;
     padding-left: 0.2em;
     padding-top: 0.25em;
+}
+
+.creator-name:hover{
+    cursor: pointer;
+    color: var(--cyan-price);
 }
 
 footer{

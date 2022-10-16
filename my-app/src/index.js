@@ -9,6 +9,7 @@ import equil from './image-equilibrium.jpg'
 import avatar from './image-avatar.png'
 import eth from './icon-ethereum.svg'
 import clock from './icon-clock.svg'
+import view from './icon-view.svg'
 
 function App() {
   return <body>
@@ -30,6 +31,7 @@ function App() {
 const Card = () => {
   return <div className='card-container'>
     <img className='nft-image' src={equil} alt="equilibrium number 3429" />
+    <img className='hover-image' src={view} alt="" />
     <h1 className='nft-title'>Equilibrium #3429</h1>
     <p className='nft-description'>Our Equilibrium collection promotes balance and calm.</p>
     <div className='auction-details'>
