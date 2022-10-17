@@ -41,7 +41,10 @@ body{
 }
 
 .hover-image{
-    /* display: none; */
+    display: none;
+}
+
+.hover-image:hover{
     display: flex;
     cursor: pointer;
     padding: 7.5em;
@@ -51,11 +54,8 @@ body{
     top: 11.7em;
     left: 16.5em;
     z-index: 1000;
-}
-
-/* .hover-image:hover{
     
-} */
+}
 
 .nft-title{
     font-size: 24px;
