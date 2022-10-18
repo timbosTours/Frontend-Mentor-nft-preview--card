@@ -41,10 +41,6 @@ body{
 }
 
 .hover-image{
-    display: none;
-}
-
-.hover-image:hover{
     display: flex;
     cursor: pointer;
     padding: 7.5em;
@@ -54,7 +50,11 @@ body{
     top: 11.7em;
     left: 16.5em;
     z-index: 1000;
-    
+    opacity: 0;
+}
+
+.hover-image:hover{
+    opacity: 0.85;
 }
 
 .nft-title{
@@ -97,7 +97,7 @@ body{
     margin: 1em;
     margin-left: 0em;
     color: var(--cyan-price);
-    font-size: 14px;
+    font-size: 12px;
     
 }
 
@@ -109,8 +109,8 @@ body{
     display: flex;
     color: var(--soft-blue);
     position: relative;
-    left: 4.5em;
-    top: 1em;
+    left: 5em;
+    top: 0.7em;
 }
 
 .clock-image{
