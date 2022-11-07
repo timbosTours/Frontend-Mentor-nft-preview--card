@@ -32,6 +32,7 @@ body{
     min-height: 33rem;
     overflow: hidden;
     justify-content: center;
+    position: relative;
 }
 
 .nft-image{
@@ -47,8 +48,8 @@ body{
     border-radius: 10px;
     background-color: rgba(0, 255, 247, 0.5);
     position: absolute;
-    top: 11.7em;
-    left: 16.5em;
+    left: 1.5em;
+    top: 1em;
     z-index: 1000;
     opacity: 0;
 }
